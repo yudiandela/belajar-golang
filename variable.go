@@ -24,4 +24,11 @@ func main() {
 	umur := 30
 	nikah := true
 	fmt.Println("Nama", namaLengkap, "umur", umur, "menikah?", nikah)
+
+	/**
+	 ** Constant Variable
+	 **/
+	const laptop string = "HP Zbook Series"
+	// laptop = "Asus Z Series" // data tidak boleh di ubah
+	fmt.Println(laptop)
 }
